@@ -13,3 +13,8 @@ app.use(methodOverride('_method'));
 // Configure Express Handlebars
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
+
+//start server
+app.listen(PORT, () => {
+  console.log(`Server is starting at PORT ${PORT}`);
+});
