@@ -1,0 +1,27 @@
+{
+  "name": "burger-app",
+  "version": "1.0.0",
+  "description": "Burger App with Nodejs, MySQL, and Express Handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ss12932/burger-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ss12932/burger-app/issues"
+  },
+  "homepage": "https://github.com/ss12932/burger-app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1"
+  }
+}
