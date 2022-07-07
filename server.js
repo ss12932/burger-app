@@ -3,10 +3,10 @@ const express = require('express');
 const methodOverride = require('method-override');
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
+
 const hbs = exphbs.create({
   defaultLayout: 'main',
 });
-
 // Importing files
 const routes = require('./routes/handlers');
 
@@ -26,5 +26,5 @@ app.set('view engine', 'handlebars');
 app.use('/', routes);
 
 app.listen(PORT, () => {
-  console.log(`Server is starting at PORT ${PORT}`);
+  console.log(`Server is starting at http://localhost:${PORT}`);
 });
