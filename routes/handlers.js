@@ -9,5 +9,8 @@ router.get('/', function (req, res) {
         message: 'Not able to query the database',
       });
     }
+    return res.render('index', { burgers });
   });
 });
+
+module.exports = router;
